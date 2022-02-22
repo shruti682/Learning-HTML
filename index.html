@@ -1,0 +1,322 @@
+<!DOCTYPE html> <!-- the document type is html -->
+<html lang="en">
+<!-- html tag starts , with an attribute which specifies language as english-->
+
+<head>
+    <!-- head consists of metatags ,title, external sheet that u want to link-->
+    <meta charset="UTF-8">
+    <!-- metadata: a set of data that describes and gives information about other data like: description,keywords,author,viewport   etc-->
+    <!-- mainly used in SEO(search engine optimisation)- to increase web traffic, meta tags give information to the search engines about the content of the website-->
+    <!-- here the characterset is assigned is UTF-8 which is standardly used,all the text that we are usingin our webpage is encoded using utf-8 encoding system -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--displays content in highest compatibility mode for ie(internet explorer) users-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this tag is used to encourage responsive design, it sets initial scale as 1.0 and width of the content to device width, so that the page is visible accordingly in different screen sizes ie laptop or mobile-->
+    
+    <meta name="description" content="This is description"> <!-- this is how we add description-->
+    
+    <meta name="keywords" content="html, html learning, web development">
+    <!--Keywords that help to rank the site(if people will search that it will appear first int the search engine)-->
+    
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <!--if u want your websites to not be visible in search engines-->
+    
+    <meta name="robots" content="INDEX, FOLLOW">
+    <!--if u want your websites to be visible in search engines-->
+    
+    <title>This is tittle</title>
+    
+    <link rel="stylesheet" href="my_first.css">
+    <!--this is how we include external css-->
+    
+    <script src="my_first.js"></script>
+    <!--this is how we include external js-->
+</head>
+
+<body>
+    <!-- body consists of the content of web page-->
+    <!--for heading-->
+    <h1>LILY</h1>
+    <h2>LILY</h2>
+    <h3>LILY</h3>
+    <h4>LILY</h4>
+    <h5>LILY</h5>
+    <h6>LILY</h6>
+
+    <!-- (lorem34+enter) for dummy text with 34 words -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia consequuntur eaque nemo alias
+        facere nostrum modiunde corporis natus voluptas! Quasi unde, cumque delectus dolorum ab, ullam veritatis fugiat
+        ducimus corporisdolorem, dolore dolor eligendi. Eius, placeat asperiores unde aliquid provident corrupti fugiat
+        nequeexercitationem id ad illo voluptas repellendus vitae deleniti repudiandae, ratione rem tempora! Minus,
+        error
+        eius cumque recusandae natus quas quia ea autem. Quaerat corporis tempore, itaque quo voluptatum ullam molestiae
+        animi dignissimos excepturi cumque sed facilis.</p>
+    <!-- <center> tag is used to bring the element to the center-->
+    <center>
+        <h4>LILY</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo consequuntur quis nesciunt, corrupti et
+            laboriosam tempora consequatur expedita numquam ea veniam suscipit itaque tempore earum! Laudantium
+            consequuntur deserunt quam cumque aspernatur sint animi assumenda voluptas neque beatae ut, tempore
+            maxime.
+            Doloribus mollitia quibusdam, minima corrupti at accusamus repudiandae fugiat modi nesciunt cumque
+            dolore
+            expedita porro aut illum similique officia assumenda voluptas nihil cum maxime ipsum beatae animi!
+            Deleniti
+            consequuntur similique, quis doloribus, magnam sequi vel voluptas harum ratione provident sit.</p>
+    </center>
+    <!-- (p*4+enter) =>4 paragraph -->
+    <p>first</p>
+    <p>second</p>
+    <p>third</p>
+    <p>fourth</p>
+    <!-- <br> tag is used for line break, if you want multiple line break add <br> multiple times-->
+    <p>new para<br>this is a new line<br><br><br>this is a new line with 3 lines gap</p>
+    <!-- <hr> tag means horizontal ruler, makes a horizontal line-->
+    <p>line1
+        <hr>line2
+    </p>
+    <!-- <br>,<hr> is self closing tag -->
+    <!-- (comm+ enter) to jump into the new line -->
+    <!-- (comm+/)=> for commenting out the current line -->
+    <!-- (comm+d)=> for coping the current line down -->
+    <!-- (alt+up arrow key)=> take the line upwards without changing anything -->
+    <!-- (alt+down arrow key)=> take the line downwards without changing anything -->
+    <br>
+    <hr><br>
+
+    <!-- difference between i & em: i just italitise the phase while em italitise+emphasize the phase which helps SEO -->
+    <!-- difference between b & strong: b just bold the text while strong bolds+conveys the text has strong importance-->
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--FOR IMAGE AND ANCHOR TAG-->
+    <h3>ANCHOR TAG AND IMAGE</h3>
+    <a href="https://google.com" target="_black">Go to google</a><br>
+    <!-- ais anchor tag and href,target are attribute(like meta is tag and name,charset etc are attribute)-->
+    <!--attribute gives property to tag, it specifes function to the tag-->
+    <!--target="_black": used for opening the page in new tab-->
+    <a href="https://facebook.com" target="_black">Go to facebook</a><br>
+    <a href="https://twitter.com" target="_black">Go to twitter</a><br>
+    <a href="https://linkedin.com" target="_black">Go to linkedin</a><br>
+    <a href="my_first.html" target="_black">Go to my page</a><br>
+
+    <img src="my_img.jpg" alt="error loading image" width=200 height=400>
+    <!--src: link of the image, alt: if the image is not found or not loading, alt will be executed-->
+    <!--we can set the width and height of the image by using attributes - height, width-->
+    <br>
+    <hr><br>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--Lists and Tables-->
+    <h3>UNORDERED LIST</h3>
+    <ul type="square">
+        <!--type can be cicle ,disc ,square-->
+        <li>This is first term in unordered list</li>
+        <ul type="disc">
+            <!--sublist-->
+            <li>sublist1</li>
+            <li>sublist2</li>
+        </ul>
+        <li>This is second term in unordered list</li>
+        <li>This is third term in unordered list</li>
+    </ul>
+    <h3>ORDERED LIST</h3>
+    <ol type="1">
+        <li>This is first term in ordered list</li>
+        <li>This is second term in ordered list</li>
+        <li>This is third term in ordered list</li>
+    </ol>
+
+    <h3>HTML TABLE</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Roll number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>blossom</td>
+                <td>VII</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>bubbles</td>
+                <td>VI</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>buttercup</td>
+                <td>VIII</td>
+                <td>97</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr><br>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--Forms and input tags-->
+    <h3>FORM TITLE</h3>
+    <form action="bachend.php">
+        <!--means the form will be submitted to the this backend-->
+        <label for="name"> Name</label>
+        <!--in "for" attribute we mention the id of which we want to create the label-->
+        <!--function of label is is the by clicking on the label, it is selected-->
+        <div>
+            <input type="text" name="myname" id="name">
+            <!--name attribute assigns a name/id by which the backend will recognise the data-->
+        </div>
+        <br>
+        <!--not recommended: do this with the help of css-->
+        <div>
+            Roll : <input type="text" name="myRoll">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date : <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Marks : <input type="number" name="myMarks">
+        </div>
+        <br>
+        <div>
+            Are you eligible? : <input type="checkbox" name="myEligibility" checked>
+            <!--checked is used to tickout the checkbox by default-->
+            <!--if you dont want this remove checked-->
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself : <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="Career">Career options</label>
+            <select name="myCareer" id="Career">
+                <!--for and id will be same-->
+                <option value="Btech">Bachlor of technology</option>
+                <option value="MBBS" selected>Bachelor of Medicine and Bachelor of Surgery</option>
+                <!--selected attribute is used to select the option by default-->
+                <option value="MBA">Master of Business Administration</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            password:<input type="password" name="" id="">
+        </div>
+        <br>
+        <div>
+            range:<input type="range" name="" id="">
+        </div>
+        <br>
+        <div>
+            radio:<input type="radio" name="" id="">
+        </div>
+        <br>
+        <div>
+            file:<input type="file" name="" id="">
+        </div>
+        <br>
+        <div>
+            <input type="color" name="" id="">
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+
+    <!--div is block element(roughly speaking it is use to break 2 inline elements),defines a division or a section in an HTML,which is then styled with CSS or manipulated with JavaScript,easily styled by using the "class or id" attribute-->
+    <!--span is inline container(roughly speaking it is used to join 2 block elements)-->
+    <!--block element : always starts on a new line, takes up the full width available (stretches out to the left and right as far as it can),has a top and a bottom margin,ex: <hr><ul><ol><table>-->
+    <!--inline element : does not start on a new line,takes up as much width as necessary,ex: <img><a><br> -->
+    <!--<br> is inline element as it doesnt start from a new line, it does its job on the same line rather jumping on the other line-->
+    <br>
+    <hr><br>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--Classes and Ids-->
+    <!--one class can be assigned to different elements, but id is unique for every elements-->
+    <!--USE Of EMMET-->
+    <!-- . is used for class # is used for id-->
+    <!-- (div.myClass1.myClass2.myclass3#myId1#myId2) +enter/tab => -->
+    <div class="myClass1 myClass2 myclass3" id="myId2">
+        This is the body.
+    </div>
+    <!-- (span.myClass1.myClass2.myclass3#myId1#myId2) +enter/tab => -->
+    <span class="myClass1 myClass2 myclass3" id="myId2"></span>
+    <!-- (span.myClass1.myClass2.myclass3#myId1#myId2*4) +enter/tab => -->
+    <span class="myClass1 myClass2 myclass3" id="myId2">FI</span>
+    <span class="myClass1 myClass2 myclass3" id="myId2">SE</span>
+    <span class="myClass1 myClass2 myclass3" id="myId2">TH</span>
+    <span class="myClass1 myClass2 myclass3" id="myId2">FO</span>
+    <!--Emmet takes div tag as default-->
+    <!-- (.myClass1.myClass2.myclass3#myId1#myId2) +enter/tab => -->
+    <div class="myClass1 myClass2 myclass3" id="myId2"></div>
+
+    <!--Classes will be defined in CSS-->
+    <br>
+    <hr><br>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--HTML Entites-->
+    <h3>HTML Entites</h3>
+    <div class="container">
+        <p>This is a paragraph</p>
+    </div>
+    <div class="container">
+        <p>This is another &nbsp; &nbsp; paragraph with two spaces</p>
+        <!--nbsp-no break space-->
+        <p>Paragraph is written like this &lt;p&gt; </p>
+        <p>Pound is written like this &pound; </p>
+        <p>Copyright is written like this &copy; </p>
+        <p>Empty character is written like this &#8203;</p>
+    </div>
+    <br>
+    <hr><br>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--Semantic Tags-->
+    <!--semantic means connected with the meaning of words and sentences-->
+    <h3>Semantic Tags</h3>
+
+    <details>
+        <summary>I have keys but no doors. I have space but no room. You can enter but can’t leave. What am I?</summary>
+        A keyboard.
+    </details>
+    <br>
+    <hr><br>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+</body>
+
+</html>
